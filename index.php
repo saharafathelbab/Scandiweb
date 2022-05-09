@@ -62,10 +62,10 @@ if(isset($_GET['sku'])){
 
 //including the main php that 
 
-include_once 'MProductList.php'; // Where my main class is that the below php files are extending
-include_once 'Book.php';
-include_once 'DVD.php';
-include_once 'Furniture.php';
+include_once 'productClasses/MProductList.php'; // Where my main class is that the below php files are extending
+include_once 'productClasses/Book.php';
+include_once 'productClasses/DVD.php';
+include_once 'productClasses/Furniture.php';
 
 
 /*
